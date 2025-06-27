@@ -4,7 +4,7 @@ require __DIR__ . '/../../config.php';
 session_start();
 
 if (empty($_SESSION['user'])) {
-    header("Location: " . BASE_URL . "/auth/login");
+    header("Location: " . BASE_URL . "/views/auth/login.php");
     exit();
 }
 
