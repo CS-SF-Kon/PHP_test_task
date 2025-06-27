@@ -1,0 +1,146 @@
+body {  
+    margin: 0;  
+    padding: 0;  
+    font-family: Arial, sans-serif;  
+    background: #f4f4f9;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+    text-align: center;  
+}  
+
+.stub-container {  
+    background: white;  
+    padding: 2rem;  
+    border-radius: 10px;  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);  
+}  
+
+h1 {  
+    color: #333;  
+}  
+
+.auth-buttons {  
+    margin-top: 20px;  
+}  
+
+.button {  
+    display: inline-block;  
+    padding: 10px 20px;  
+    margin: 0 10px;  
+    background: #4CAF50;  
+    color: white;  
+    text-decoration: none;  
+    border-radius: 5px;  
+    transition: background 0.3s;  
+}  
+
+.button:hover {  
+    background: #45a049;  
+} 
+
+.errors {
+    color: #ff4444;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #ffebee;
+    border-radius: 5px;
+}
+
+.errors p {
+    margin: 5px 0;
+}
+
+.auth-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth-links a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.auth-links a:hover {
+    text-decoration: underline;
+}
+
+.success-message {
+    background-color: #dff0d8;
+    color: #3c763d;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.account-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.user-info {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.user-info p {
+    margin: 10px 0;
+}
+
+.profile-form {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.account-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button.logout {
+    background-color: #f44336;
+}
+
+.button.logout:hover {
+    background-color: #d32f2f;
+}
+
+.error-message {
+    color: #ff4444;
+    background: #ffebee;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
